@@ -1,0 +1,240 @@
+		/* Стили тегов */
+		body{
+			background-color: #F7F8F9;
+		}
+		img {
+			width: 60px;
+			text-align: center;
+			margin: 10px;
+			padding-top: 25px;
+		}
+		div .paymant:first-child .header{
+			background: linear-gradient(to right, #01742a, #85cf72);
+		}
+		table{
+			width: 100%;
+		}
+
+		td{
+			border-bottom: solid 1px silver;
+		}
+		th{
+			background-color: #F6F9FB;
+			font-weight: 500;
+			font-size: 0.9em;
+		}
+		h4{
+			text-align: center;
+			font-size: 18px;
+		}
+		a{
+			font-weight: 700;
+			color:#2ab3aa;
+		}
+		span, p{
+				font-size: 1em;
+				color: #625f6a;
+				
+		}
+		p{
+				padding-left: 15px;
+				padding-right: 15px;
+		}
+		td, th{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			padding-right: 5px; 
+		}
+		/* Стили тегов */
+		/* Стили классов */
+		.green{
+			color:green;
+			font-weight: 700;
+		}
+		.red{
+			color:red;
+			font-weight: 700;
+		}
+		.paymant{
+			display: inline;
+			flex-direction: column;
+			justify-content: center;
+            position: relative;
+			height: auto;
+			text-align: center;
+			background-color: white;
+			margin: 5% 1% 3% 1%;
+			box-shadow: 0 0 10px 10px whitesmoke;
+		}
+
+		.pay{
+			background-color: #2ab3aa;
+			width: 150px;
+			border-radius: 30px;
+			display:table-cell;
+			vertical-align:bottom;
+			bottom: 20px;
+			color: white;
+		}
+		.green{
+			color:green;
+			font-weight: 700;
+		}
+		.red{
+			color:red;
+			font-weight: 700;
+		}
+		.footer{
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+		}
+		.content{
+			padding-bottom: 50px;
+		}
+		.header{
+			height: 10px;
+			background: linear-gradient(to right, #0067c6, #35c3ee);
+			background-color: #01742a;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+		}
+		/* Стили классов */
+		/* Стили id */
+		#contain{
+			display: flex;
+			justify-content:center;
+			flex-wrap: wrap;
+		}
+		#list p{
+			text-align: center;
+			padding-top: 30px;
+		}
+		#list h4 {
+			padding-bottom: 3%;
+		}
+		#price{
+			font-size: 40px;
+			font-weight: 700;
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		#dollar{
+			font-size: 26px;
+			font-weight: 700;
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		#p_price{
+			line-height: 15px;
+		}
+		#pay_second{
+			color:#2ab3aa;
+			background-color: white;
+			border: 3px solid #2ab3aa;
+		}
+		/* Стили id */
+
+		/* Медиазапросы*/  		
+		@media screen and (min-width: 1025px) {
+			.paymant{
+				width: 25%;
+			}
+			#contain_list{
+				text-align: left;
+				padding-left: 15%;
+				padding-right: 15%;
+				margin-bottom: 5%;
+			}
+			#list{
+				padding: 3%;
+			}
+			#list{
+				background-color: white;
+				padding: 3% 10% 3% 10%;
+				box-shadow: 0 0 10px 10px whitesmoke;
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			.paymant{
+				width: 34%;
+			}
+			#contain_list{
+				text-align: left;
+				padding-left: 15%;
+				padding-right: 15%;
+				margin-bottom: 5%;
+			}
+			#list{
+				padding: 3%;
+			}
+			#list{
+				background-color: white;
+				padding: 3% 10% 3% 10%;
+				box-shadow: 0 0 10px 10px whitesmoke;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			p, span{
+				font-size: 12px;
+			}
+			p a {
+				font-size: 16px;
+			}
+			td, th{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 5px;
+				padding-right: 5px; 
+			}
+			.paymant{
+				width: 60%;
+			}
+			.pay{
+				width: 90%;
+			}
+			#contain{
+				margin-top:10%;
+			}
+			#contain_list{
+				text-align: left;
+				padding-left: 20%;
+				padding-right: 20%;
+				margin-bottom: 25%;
+			}
+
+			#list{
+				background-color: white;
+				padding: 5% 10% 3% 10%;
+				box-shadow: 0 0 10px 10px whitesmoke;
+			} 
+
+		}
+		@media screen and (max-width: 600px) {
+			.paymant{
+				width: 80%;
+			}
+			.pay{
+				width: 90%;
+			}
+			#contain_list{
+				padding-left: 10%;
+				padding-right: 10%;
+			}
+
+		}
+		@media screen and (max-width: 375px) {
+			.paymant{
+				width: 90%;
+			}
+			.pay{
+				width: 90%;
+			}
+			#contain_list{
+				padding-left: 5%;
+				padding-right: 5%;
+			}
+		}
+		/* Медиазапросы*/  	
