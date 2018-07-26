@@ -60,7 +60,7 @@
 			display: inline;
 			flex-direction: column;
 			justify-content: center;
-            position: relative;
+            		position: relative;
 			height: auto;
 			text-align: center;
 			background-color: white;
@@ -231,6 +231,11 @@
 				padding-left: 10%;
 				padding-right: 10%;
 			}
+			@supports (-ms-ime-align:auto) {
+        			.pay{
+        				width: 150px;
+        			}
+			}
 
 		}
 		@media screen and (max-width: 375px) {
@@ -243,6 +248,11 @@
 			#contain_list{
 				padding-left: 5%;
 				padding-right: 5%;
+			}
+			@supports (-ms-ime-align:auto) {
+        			.pay{
+        				width: 150px;
+        			}
 			}
 		}
 		@supports (-ms-ime-align:auto) {
