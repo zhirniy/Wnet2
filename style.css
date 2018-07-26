@@ -213,6 +213,11 @@
 			.desktop{
 				display: none;
 			}
+			@supports (-ms-ime-align:auto) {
+        			.pay{
+        				width: 150px;
+        			}
+			}
 
 		}
 		@media screen and (max-width: 600px) {
@@ -239,5 +244,11 @@
 				padding-left: 5%;
 				padding-right: 5%;
 			}
+		}
+		@supports (-ms-ime-align:auto) {
+  		  .footer p {
+        		padding-left: 33%;
+        		padding-right: 33%;
+        		}
 		}
 		/* Медиазапросы*/  	
