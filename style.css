@@ -261,4 +261,10 @@
         		padding-right: 33%;
         		}
 		}
+		@media all and (-ms-high-contrast:none)  {
+     			*::-ms-backdrop, .footer p {
+        			padding-left: 33%;
+        			padding-right: 33%;
+        		}
+   		} /* IE11 */
 		/* Медиазапросы*/  	
